@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+    
+    int fatorial = 1, n;
+    
+    printf("Digite um valor N: ");
+    scanf("%d", &n);
+    
+    for(; n > 1; n--) {
+        fatorial *= n;
+    }
+    
+    printf("\n%d", fatorial);
+    return 0;
+}
